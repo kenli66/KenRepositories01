@@ -11,7 +11,8 @@ public class EchoAction {
 		this.message = message;
 	}
 	
-	//test for git checkout and reset.
+	//2nd test for git checkout and reset.
+	// 3rd test for git checkout and reset.
 	public String execute() {
 		System.out.println("call execute. " + "message=" + message);
 		return "ok";
